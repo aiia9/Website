@@ -1,0 +1,78 @@
+body {
+    animation: color-change2 3s infinite;
+    font-family: Calibri,  sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #D6FF6B; /* Цвет фона веб-страницы */
+    color: #658021; /* Цвет основного текста */
+}
+@keyframes color-change {
+    0% {
+      color: ff0000;
+    }
+  
+    12% {
+      color: ff7000;
+    }
+    
+    24% {
+      color: fff000;
+    }
+
+    37% {
+      color: 00ff00;
+    }
+  
+    50% {
+      color: #00fff0;
+    }
+
+    62% {
+      color: #0000ff
+    }
+
+    74% {
+      color: #ff00ff
+    }
+
+    87% {
+      color: #ff0000
+    }
+}
+@keyframes color-change2 {
+    0% {
+      color: green;
+    }
+  
+    50% {
+      color: black;
+    }
+    
+    100% {
+      color: green;
+    }
+}
+h1 {
+    text-align: center;
+    border: ridge;
+    animation: color-change 3s infinite;
+    color: #ff0000; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    background-color: #02a80f
+}
+h2 {
+    text-align: center;
+    border: ridge;
+    animation: color-change 3s infinite;
+    color: #ff0000; /* Цвет заголовка */
+    font-size: 25px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    background-color: #02a80f
+}
+img {
+    border: ridge;
+    max-width: 25%
+}
+iframe {
+    border: ridge;
+}
